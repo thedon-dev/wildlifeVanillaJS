@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles Page</title>
+  <link rel="stylesheet" href="../styles/navbar.css">
+  <link rel="stylesheet" href="../styles/articles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+          <div class="brand">Jacob <span>WildLife</span></div>
+          <div class="nav-links">
+            <a href="/">
+              <div class="icon"><i class="fas fa-home"></i></div>
+              Home
+            </a>
+            <a href="./hotline.html">
+              <div class="icon"><i class="fas fa-phone"></i></div>
+              Hotline
+            </a>
+            <a href="./articles.html" class="active">
+              <div class="icon"><i class="fas fa-newspaper"></i></div>
+              Articles
+            </a>
+            <a href="./about.html">
+              <div class="icon"><i class="fas fa-info-circle"></i></div>
+              About
+            </a>
+            <a href="./discovermore.html" class="discover-more" style="color: white"
+              >Discover More</a
+            >
+          </div>
+          <a href="./login.html" class="login">Login</a>
+        </div>
+      </nav>
+  <section class="articles-section">
+    <div class="container">
+      <div class="text-center header">
+        <h1 class="main-title">Explore Articles</h1>
+        <p class="sub-title">
+          Discover stories, research, and insights about wildlife conservation and the natural world.
+        </p>
+      </div>
+      <div id="articles-container" class="articles-grid"></div>
+      <div id="loading" class="loading">
+        <p>Loading articles...</p>
+      </div>
+    </div>
+  </section>
+  <script src="../javascript/articles.js"></script>
+</body>
+</html>

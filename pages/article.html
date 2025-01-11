@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article Details</title>
+    <link rel="stylesheet" href="../styles/article.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="brand">Jacob <span>WildLife</span></div>
+        <div class="nav-links">
+          <a href="/">
+            <div class="icon"><i class="fas fa-home"></i></div>
+            Home
+          </a>
+          <a href="./hotline.html">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            Hotline
+          </a>
+          <a href="./articles.html">
+            <div class="icon"><i class="fas fa-newspaper"></i></div>
+            Articles
+          </a>
+          <a href="./about.html" class="active">
+            <div class="icon"><i class="fas fa-info-circle"></i></div>
+            About
+          </a>
+          <a
+            href="./discovermore.html"
+            class="discover-more"
+            style="color: white"
+            >Discover More</a
+          >
+        </div>
+        <a href="./login.html" class="login">Login</a>
+      </div>
+    </nav>
+    <div id="article-page" class="article-page">
+      <div id="loading" class="loading">Loading story...</div>
+      <div id="article-container" class="article-container hidden">
+        <h1 id="article-title" class="article-title"></h1>
+        <p id="article-description" class="article-description"></p>
+        <div id="article-content" class="article-content"></div>
+        <div class="back-link">
+          <a href="articles.html">Back to Articles</a>
+        </div>
+      </div>
+      <div id="not-found" class="not-found hidden">
+        <p class="not-found-message">Story not found.</p>
+        <a href="articles.html" class="back-link">Back to Articles</a>
+      </div>
+    </div>
+    <script src="../javascript/article.js"></script>
+  </body>
+</html>

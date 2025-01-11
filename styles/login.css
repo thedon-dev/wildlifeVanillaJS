@@ -1,0 +1,85 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6; /* bg-gray-100 */
+  }
+  
+  /* Login Section */
+  .login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; /* bg-gray-100 */
+  }
+  
+  .login-container {
+    background-color: white;
+    padding: 2rem; /* p-8 */
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    width: 24rem; /* w-96 */
+  }
+  
+  .login-title {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: bold; /* font-bold */
+    text-align: center;
+    margin-bottom: 1.5rem; /* mb-6 */
+  }
+  
+  .error-message {
+    color: #dc2626; /* text-red-500 */
+    text-align: center;
+    margin-bottom: 1rem; /* mb-4 */
+    display: none; /* Hidden by default */
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem; /* mb-6 */
+  }
+  
+  label {
+    display: block;
+    color: #374151; /* text-gray-700 */
+    font-weight: 500; /* font-medium */
+    margin-bottom: 0.5rem; /* mb-2 */
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    border: 1px solid #d1d5db; /* border-gray-300 */
+    border-radius: 0.5rem; /* rounded-lg */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #3b82f6; /* border-blue-500 */
+    box-shadow: 0 0 0 2px #bfdbfe; /* focus:ring-2 focus:ring-blue-500 */
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 0.5rem 1rem; /* py-2 px-4 */
+    background-color: #3b82f6; /* bg-blue-500 */
+    color: white;
+    font-weight: 500; /* font-medium */
+    border: none;
+    border-radius: 0.5rem; /* rounded-lg */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #2563eb; /* hover:bg-blue-600 */
+  }
+  
+  .login-button:disabled {
+    background-color: #60a5fa; /* lighter blue */
+    cursor: not-allowed;
+  }
+  

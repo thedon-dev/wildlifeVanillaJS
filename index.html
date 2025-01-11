@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/homepagestyle.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="brand">Jacob <span>WildLife</span></div>
+        <div class="nav-links">
+          <a href="/" class="active">
+            <div class="icon"><i class="fas fa-home"></i></div>
+            Home
+          </a>
+          <a href="./pages/hotline.html">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            Hotline
+          </a>
+          <a href="./pages/articles.html">
+            <div class="icon"><i class="fas fa-newspaper"></i></div>
+            Articles
+          </a>
+          <a href="./pages/about.html">
+            <div class="icon"><i class="fas fa-info-circle"></i></div>
+            About
+          </a>
+          <a href="./pages/discovermore.html" class="discover-more" style="color: white"
+            >Discover More</a
+          >
+        </div>
+        <a href="/login" class="login">Login</a>
+      </div>
+    </nav>
+
+    <main style="padding-bottom: 50px">
+      <div class="container">
+        <div class="hero">
+          <h1>WildLife Reserve</h1>
+          <h4><span>Keep Saving</span> All Animals</h4>
+          <p>
+            Protect animals from poaching, protect the future of animal
+            diversity as living things on earth.
+          </p>
+          <div class="selection-list">
+            <h5>Selection List</h5>
+            <a href="#wildlifevideo">WildLife Video</a>
+            <a href="#wildlifetrade">WildLife Trade</a>
+            <a href="#hotline">Hotline</a>
+            <a href="#articles">Articles and News</a>
+          </div>
+        </div>
+
+        <section id="wildlifevideo" class="video-section">
+          <iframe
+            id="videoFrame"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+          <div class="video-info">
+            <h3 id="videoTitle">1 - Wildlife Video</h3>
+            <h2 id="videoHeading">Amazing Wildlife</h2>
+            <p id="videoDescription">Discover the beauty of the wild.</p>
+            <div>
+              <button id="prevVideo">Prev</button>
+              <button id="nextVideo">Next</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="articles" class="articles">
+          <h1>Articles</h1>
+          <div
+            class="articlesContainer"
+            style="display: flex; gap: 10px; margin-top: 20px"
+          >
+            <div class="article">
+              <h2>Saving the Endangered Rhino</h2>
+              <p>
+                Explore the journey and challenges faced in protecting one of
+                the most endangered species on Earth.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+            <div class="article">
+              <h2>The Journey of Migrating Elephants</h2>
+              <p>
+                Learn about the incredible migration of elephants across Africa.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+            <div class="article">
+              <h2>The Secret Life of Tigers</h2>
+              <p>
+                An in-depth look into the behaviors and habits of wild tigers.
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footerContainer" style="display: flex;">
+        <div class="space-y-4">
+          <h2>About Us</h2>
+          <p>
+            Dedicated to the conservation and protection of wildlife, our
+            reserve is a sanctuary for endangered species and a place to
+            experience nature's beauty.
+          </p>
+          <a href="/about">Learn More</a>
+        </div>
+
+        <div class="space-y-4">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="/visit">Plan Your Visit</a></li>
+            <li><a href="/volunteer">Volunteer</a></li>
+            <li><a href="/donate">Make a Donation</a></li>
+            <li><a href="/events">Upcoming Events</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-4">
+          <h2>Contact Us</h2>
+          <p>
+            <strong>Address:</strong> 123 Wildlife Avenue, Nature City, Earth
+          </p>
+          <p><strong>Email:</strong> contact@wildlifereserve.com</p>
+          <p><strong>Phone:</strong> +123 456 7890</p>
+          <div class="flex">
+            <a href="#"><i class="fab fa-facebook-f">F</i></a>
+            <a href="#"><i class="fab fa-twitter">T</i></a>
+            <a href="#"><i class="fab fa-instagram">I</i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center text-sm border-t pt-4">
+        <p>&copy; 2024 Wildlife Reserve. All Rights Reserved.</p>
+        <a href="/privacy-policy" class="hover:underline text-green-400"
+          >Privacy Policy</a
+        >
+        |
+        <a href="/terms-of-service" class="hover:underline text-green-400"
+          >Terms of Service</a
+        >
+      </div>
+    </footer>
+
+    <script src="./javascript/navbar.js"></script>
+    <script src="./javascript/homepage.js"></script>
+  </body>
+</html>
