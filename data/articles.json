@@ -4,15 +4,15 @@
     "title": "Saving the Endangered Rhino",
     "description": "Explore the journey and challenges faced in protecting one of the most endangered species on Earth.",
     "content": "Rhinos are among the most threatened species in the world, facing poaching and habitat loss. Through conservation efforts, dedicated teams are working tirelessly to ensure their survival for future generations...",
-    "image": "https://example.com/rhino.jpg",
-    "link": "../pages/article.html/1"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ74w4NxHDa3BDCQOjdgbBdGqGqi8Fz9CIIWQ&s",
+    "link": "/article/1"
   },
   {
     "id": 2,
     "title": "The Journey of Migrating Elephants",
     "description": "Learn about the incredible migration of elephants across Africa.",
     "content": "Elephants embark on one of the most extraordinary migrations on Earth. Driven by seasons and survival instincts, their journey showcases the strength and perseverance of these majestic creatures...",
-    "image": "https://example.com/elephants.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScUw4xTTyBAqdH-gEgl-SMMM_mrooOlRJtpw&s",
     "link": "/article/2"
   },
   {
@@ -20,7 +20,7 @@
     "title": "The Secret Life of Tigers",
     "description": "An in-depth look into the behaviors and habits of wild tigers.",
     "content": "Tigers are solitary and territorial animals. This article explores their hunting patterns, mating rituals, and the challenges they face due to habitat destruction and poaching...",
-    "image": "https://example.com/tigers.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqMeaFZV0jAknE_9y7-osOPczPODWhTa59Sg&s",
     "link": "/article/3"
   }
 ]

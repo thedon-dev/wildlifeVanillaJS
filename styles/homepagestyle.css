@@ -94,11 +94,17 @@ iframe {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) { 
-    .articlesContainer {
+@media (max-width: 768px) {
+    .selection-list{
+        position: static;
+    }
+
+    .articlesContainer,
+    .footerContainer {
         flex-direction: column;
     }
-    .video-section{
+
+    .video-section {
         flex-direction: column;
     }
 }
